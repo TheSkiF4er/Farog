@@ -1,0 +1,14 @@
+name: Docs
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build docs (placeholder)
+        run: |
+          echo "Docs build placeholder"
