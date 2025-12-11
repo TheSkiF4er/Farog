@@ -1,0 +1,13 @@
+name: Security Audit
+
+on:
+  schedule:
+    - cron: "0 3 * * 0"
+
+jobs:
+  security-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run security audit placeholder
+        run: echo "Run farog pm audit here"
