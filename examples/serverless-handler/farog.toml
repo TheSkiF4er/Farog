@@ -1,0 +1,4 @@
+name = "farog-serverless-handler"
+version = "1.0.0"
+entry = "src/handler.ts"
+type = "module"
